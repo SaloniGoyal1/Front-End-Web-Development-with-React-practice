@@ -1,7 +1,3 @@
-.App {
-  text-align: center;
-}
-
 .row-header{
   margin:0px auto;
   padding:0px auto;
@@ -34,4 +30,9 @@ address{
 
 .navbar-dark {
   background-color: #512DA8;
+}
+
+.cardTitle{
+  font-weight: bolder;
+  font-size: large;
 }
