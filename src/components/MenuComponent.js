@@ -21,8 +21,6 @@ import { Link } from 'react-router-dom';
         // map (JS keyword): iterating over every dish in the dishes array here
         const menu = props.dishes.map((dish) => {
             return (
-                // key: every item require key attribute to specift it.
-                // the key helps React to recognise each one of these elements, uniquely. 
                 <div key={dish.id} className="col-12 col-md-5 m-1">
                     <RenderMenuItem dish={dish} />
                 </div>    
@@ -31,7 +29,6 @@ import { Link } from 'react-router-dom';
 
         console.log('Menu component render invoked')
 
-         // return what needs to diaplay on the UI in this conponent. (return view)
         return ( 
             <div className="container">
                 <div className="row">
